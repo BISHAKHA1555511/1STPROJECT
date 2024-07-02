@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="img.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get latest News, India News, Breaking News, Today's News-NDTV.com</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header img {
+            width: 50px;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .contact a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .welcome {
+            width: 100%;
+            position: relative;
+        }
+
+        .welcome img {
+            width: 100%;
+            opacity: 0.7;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .container,
+        .container2 {
+            display: grid;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .container {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .container2 {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .text,
+        .long-text2 {
+            font-size: 1.1em;
+            line-height: 1.8;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .image,
+        .image2 {
+            width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .yt {
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div>
+            <img src="img.avif" alt="delhi-rain-logo" class="i-logo">
+        </div>
+        <div>
+            <h1>Delhi <b>Rain</b> <b>Havoc</b></h1>
+        </div>
+        <div class="contact">
+            <h2><a href="ass4.html" class="contact">Contact Us</a></h2>
+        </div>
+    </div>
+    <main>
+        <div class="welcome">
+            <img src="img.avif" alt="Welcome Image">
+            <div class="centered">WELCOME TO OUR WEBSITE</div>
+        </div>
+        <div class="container">
+            <div class="text">
+                <p>An orange alert for moderate to heavy rain has been sounded for Delhi for three days beginning June 30 while conditions are favourable for the Southwest Monsoon to advance into some more parts of northern and central India in the next few days.</p>
+                <p>Delhi and its adjoining areas are expected to witness incessant rainfall in the coming days as the India Meteorological Department (IMD) issued an orange alert with the possibility of moderate to heavy downpours from June 30 (Sunday) to July 2 (Tuesday).</p>
+                <p>In the coming week, the maximum and minimum temperatures in Delhi are expected to hover between 37 degrees Celsius and 25 degrees Celsius, respectively, the weather body said in its daily bulletin.</p>
+            </div>
+            <div class="img">
+                <img src="img2.jpg" alt="Rainy Delhi" class="image">
+            </div>
+        </div>
+        <div class="container2">
+            <div class="img2">
+                <img src="img3.jpg" alt="Rain in Delhi" class="image2">
+            </div>
+            <div class="text long-text2">
+                <p>The IMD issues four colour-coded warnings -- green (no action needed), yellow (watch and stay updated), orange (be prepared) and red (take action).</p>
+                <p>On Saturday, rain lashed several parts of the national capital, including Rohini, Burari and central Delhi.</p>
+                <p>The city's primary weather station, Safdarjung, recorded 8.9 mm of rainfall and Lodhi Road 12.6 mm between 2.30 pm and 5.30 pm on Saturday.</p>
+                <p>Apart from Delhi, several states in northern India are also expected to witness rainfall as the Southwest Monsoon progresses in the region.</p>
+                <p>According to the IMD, isolated heavy rainfall is expected in Himachal Pradesh, Uttarakhand, Punjab, Haryana, Chandigarh, Delhi, Uttar Pradesh, Madhya Pradesh, and Rajasthan from June 30 to July 3.</p>
+            </div>
+        </div>
+        <div class="yt">
+            <iframe width="1080" height="608" src="https://www.youtube.com/embed/XCMy1dhrF34" title="Delhi Rain Today | Delhi-NCR Submerges As Torrential Rain Breaks 88-Year-Old Record" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer>
+        <p>ALL RIGHTS RESERVED &#174;</p>
+    </footer>
+</body>
+
+</html>

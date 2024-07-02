@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="img.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi Rain Havoc</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .i-logo {
+            width: 50px;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .contact h2 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .contact a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        main p {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-section {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .form-section h1 {
+            margin-top: 0;
+        }
+
+        .form-section form {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+        }
+
+        .form-section form label {
+            align-self: center;
+        }
+
+        .form-section form input[type="text"],
+        .form-section form input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-section form .checkbox {
+            grid-column: span 2;
+            display: flex;
+            align-items: center;
+        }
+
+        .form-section form .checkbox input {
+            margin-right: 10px;
+        }
+
+        .form-section form .submit {
+            grid-column: span 2;
+            display: flex;
+            justify-content: center;
+        }
+
+        .form-section form .submit input {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-section form .submit input:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: small;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div>
+            <img src="img5.jpg" alt="delhi-rain-worse-logo" class="i-logo">
+        </div>
+        <div>
+            <h1>Delhi Rain Havoc</h1>
+        </div>
+        <div class="contact">
+            <h2>Contacts</h2>
+        </div>
+    </div>
+    <main>
+        <div>
+            <p>The IMD has issued Orange Alert for extremely heavy rainfall in New Delhi, Gurgaon, Noida, North Delhi, North-East Delhi, North West Delhi, West Delhi, South Delhi, South West Delhi, South-East Delhi, Shahdara, Central Delhi, Faridabad, East Delhi, and Ghaziabad from 1 July to 3 July.
+                Heavy rains accompanied with thunderstorm and lightning are forecasted to prevail in these areas till 3 July.
+                The weather department has also issued a yellow alert for heavy rainfall on 30 June, and 4 July in all parts of Delhi.
+            </p>
+        </div>
+        <div class="form-section">
+            <h1>Form</h1>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <label for="genre">Favourite Genre</label>
+                <input list="genres" id="genre" name="genre">
+                <datalist id="genres">
+                    <option value="Action">
+                    <option value="Thriller">
+                    <option value="Romantic">
+                    <option value="Fiction">
+                    <option value="Mystery">
+                </datalist>
+                <div class="checkbox">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Subscribe to our newsletter via email</label>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        Footer Text in Small<br>
+        All Rights Reserved
+    </footer>
+</body>
+
+</html>
